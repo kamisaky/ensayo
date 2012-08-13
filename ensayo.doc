@@ -1,0 +1,47 @@
+Edgar Mauricio Navarro Rocha cód. : 625171	
+
+Los
+ Paquetes del API de java se dividen en básicos y opcionales. La mayoría de los paquetes del API comienzan, ya sea con “java” para los paquetes básicos o “javax” para los paquetes opcionales.
+Api es un conjunto de paquetes o bibliotecas y cuando queremos utilizar uno de estos paquetes debemos indicar que el programa que va a utilizar alguna clase de los paquetes de API.
+Paquetes de utilidades.
+* java.lang: Fundamental para el lenguaje. Incluye clases como String o StringBuffer.
+* java.io: Para la entrada y salida a través de flujos de datos, y ficheros del sistema.
+* java.util: Contiene colecciones de datos y clases, el modelo de eventos, facilidades horarias, generación aleatoria de números, y otras clases de utilidad.
+* java.math: Clases para realizar aritmética con la precisión que se desee.
+* java.text: Clases e interfaces para manejo de texto, fechas, números y mensajes de una manera independiente a los lenguajes naturales.
+* java.security: Clases e interfaces para seguridad en Java: Encriptación RSA.
+C. Paquetes para el desarrollo gráfico.
+* java.applet: Para crear applets y clases que las applets utilizan para comunicarse con su contexto. 
+* java.awt: Para crear interfaces con el usuario, y para dibujar imágenes y gráficos. 
+* javax.swing: Conjunto de componentes gráficos que funcionan igual en todas las plataformas que Java soporta. 
+* javax.accesibility: Da soporte a clases de accesibilidad para personas discapacitadas.
+* java.beans: Para el desarrollo de JavaBeans.
+D. Paquetes para el desarrollo en red.
+* java.net: Clases para aplicaciones de red. 
+* java.sql: Paquete que contiene el JDBC, para conexión de programas Java con Bases de datos.
+Java Database Connectivity: más conocida por sus siglas JDBC , es una API que permite la ejecución de operaciones sobre bases de datos desde el lenguaje de programación Java, independientemente del sistema operativo donde se ejecute o de la base de datos a la cual se accede, utilizando el dialecto SQL del modelo de base de datos que se utilice.
+* java.rmi: Paquete RMI (Java Remote Method Invocation), método para localizar objetos remotos, comunicarse con ellos e incluso enviar objetos como parámetros de un objeto a otro.
+* org.omg.CORBA: Facilita la posibilidad de utilizar OMG CORBA para la conexión entre objetos distribuidos, aunque esté codificados en distintos lenguajes.
+Common Object Request Broker Architecture (CORBA) es un Standard definido por el Object Management Group (OMG) que permite que diversos componentes de software escritos en múltiples lenguajes de programación y que corren en diferentes computadoras puedan trabajar juntos.
+* org.omb.CosNaming: Da servicio al IDL de Java, similar al RMI pero en CORBA.
+Java IDL o Java Interface Description Language es una implementación CORBA que permite que dos objetos interactúen sobre diferentes plataformas a través de una red.
+Dentro del API de Java existe una gran colección de clases que son muy utilizadas en el desarrollo de aplicaciones. Entre las clases de utilidad de Java más utilizadas y conocidas están las siguientes: String, Integer, Double, Float, Long, Boolean, Math, Date, StringTokenizer, BigInteger.
+Clase String
+La clase String está orientada al manejo de cadenas de caracteres y pertenece al paquete java.lang del API de Java.
+Clase Integer
+La clase Integer permite convertir un tipo primitivo de dato int a objeto Integer. La clase Integer pertenece al paquete java.lang del API de Java y hereda de la clase java.lang.Number.
+Clase Boolean
+La clase Boolean permite convertir un tipo primitivo de dato boolean a objeto Boolean. La clase Booleana pertenece al paquete java.lang del API de Java.
+Clase Math
+La clase Math contiene métodos para utilizar operaciones numéricas básicas y funciones trigonométricas. La clase Math pertenece al paquete java.lang del API de Java. La clase Math se define como “final” que indica que no puede tener instancia, de tal forma que sus atributos y métodos son “static”.
+
+
+
+Clase Date
+La clase Date representa un instante de tiempo especifico con una precisión en milisegundos. Adicionalmente la clase Date permite el uso del formato Universal Coordinated Time (UTC). Por otro lado, muchos computadores están definidos en términos de Greenwich Mean Time (GMT) que es equivalente a Universal Time (UT). GMT es el nombre estándar y UT es el nombre científico del estándar. La diferencia entre UT y UTC es que UTC está basado en un reloj atómico y UT está basado en un reloj astronómico.
+Clase StringTokenizer
+La clase StringTokenizer permite en una aplicación romper una cadena en unidades denominadas “token”. Una cadena se puede romper generando un token a través de un delimitador. Si este delimitador no se especifica, por defecto será un espacio. La clase StringTokenizer pertenece al paquete java.lang del API de Java.
+Clase BigInteger
+La clase BigInteger permite en una aplicación manejar datos numéricos enteros positivos y negativos con longitud indefinida. Considerando que el tipo primitivo de datos “long” tiene un valor máximo de 9.223.372.036.854.775.807, en caso de que sea necesario realizar operaciones con datos enteros mayores a este valor, se hace estrictamente necesario el uso de la clase BigInteger. La clase BigInteger pertenece al paquete java.math del API de Java.
+
+
